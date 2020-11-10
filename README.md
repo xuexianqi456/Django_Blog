@@ -25,28 +25,28 @@
 - 注册按钮默认禁用，只有同意协议后才能激活按钮
 - 用Ajax发送请求，用JS渲染错误提示信息
 
-![](https://darker-x.oss-cn-hangzhou.aliyuncs.com/img/bbs/image-20201110193956961.png)
+![](https://gitee.com/xuexianqi/img/raw/master/img/image-20201110193956961.png)
 
 #### 登录界面
 
 - 用户名、密码、验证码的输入框都有失去焦点就渲染错误信息事件
 - 验证码和背景随机生成，使用了`pillow`模块
 
-![](https://darker-x.oss-cn-hangzhou.aliyuncs.com/img/bbs/image-20201110194025662.png)
+![](https://gitee.com/xuexianqi/img/raw/master/img/image-20201110194025662.png)
 
 #### 管理员页面
 
 - 管理员可以上传主页的轮播图
 
-![](https://darker-x.oss-cn-hangzhou.aliyuncs.com/img/bbs/image-20201110194434693.png)
+![](https://gitee.com/xuexianqi/img/raw/master/img/image-20201110194434693.png)
 
 - 管理员可以管理全部用户（除了自己）
 
-![](https://darker-x.oss-cn-hangzhou.aliyuncs.com/img/bbs/image-20201110195033715.png)
+![](https://gitee.com/xuexianqi/img/raw/master/img/image-20201110195033715.png)
 
 - 管理员 - Django内置admin后台管理
 
-![](https://darker-x.oss-cn-hangzhou.aliyuncs.com/img/bbs/image-20201110195109104.png)
+![](https://gitee.com/xuexianqi/img/raw/master/img/image-20201110195109104.png)
 
 #### 用户
 
@@ -54,7 +54,7 @@
 - 日志中包含了IP地址、访问URL、访问时间、访问设备、访问平台
 - 加入了分页器
 
-![](https://darker-x.oss-cn-hangzhou.aliyuncs.com/img/bbs/image-20201110195737091.png)
+![](https://gitee.com/xuexianqi/img/raw/master/img/image-20201110195737091.png)
 
 - 可以设置基本信息
 - 信息设置：地址栏用了JS的省市联动，前端的JS中使用模板语法渲染当前用户的地址
@@ -63,29 +63,29 @@
 - 修改头像：修改时可以试试显示，修改后直接刷新页面，更新头像
 - 修改背景：可以修改当前页面+主页+个人博客站点的背景图片（每个用户的个人博客站点背景图都可以不同）
 
-![](https://darker-x.oss-cn-hangzhou.aliyuncs.com/img/bbs/image-20201110200021170.png)
+![](https://gitee.com/xuexianqi/img/raw/master/img/image-20201110200021170.png)
 
 #### 后台管理
 
 - 新增文章用了`mdeditor`编辑器，支持`Markdown`语法，左边源代码，右边预览，分类单选，标签多选，文章有自己的首图
 
-![](https://darker-x.oss-cn-hangzhou.aliyuncs.com/img/bbs/image-20201110201153056.png)
+![](https://gitee.com/xuexianqi/img/raw/master/img/image-20201110201153056.png)
 
 - 文章和分类、标签的删除根据ID传值，共用一个url和视图函数
 - 分类和标签的更新也共用一个url和视图函数
 
-![](https://darker-x.oss-cn-hangzhou.aliyuncs.com/img/bbs/image-20201110201911188.png)
+![](https://gitee.com/xuexianqi/img/raw/master/img/image-20201110201911188.png)
 
 - 点击文章编辑按钮后，到新的页面进行编辑，选择已关联分类和标签
 
-![](https://darker-x.oss-cn-hangzhou.aliyuncs.com/img/bbs/image-20201110215510689.png)
+![](https://gitee.com/xuexianqi/img/raw/master/img/image-20201110215510689.png)
 
 #### 主页
 
 - 轮播图：点击可以跳转至轮播图的链接
 - 展示所有文章，使用了折叠和分页，显示文章作者的头像和发布时间、点赞数、评论数
 
-![](https://darker-x.oss-cn-hangzhou.aliyuncs.com/img/bbs/image-20201110202112300.png)
+![](https://gitee.com/xuexianqi/img/raw/master/img/image-20201110202112300.png)
 
 #### 个人博客站点
 
@@ -94,24 +94,24 @@
 - 中间主内容：显示公告和文章
 - 文章：显示文章头图、文章标题、发布时间、点赞数、评论数
 
-![](https://darker-x.oss-cn-hangzhou.aliyuncs.com/img/bbs/image-20201110204040912.png)
+![](https://gitee.com/xuexianqi/img/raw/master/img/image-20201110204040912.png)
 
 #### 文章详情
 
 - 显示发布时间、修改时间、当前时间
 
-![](https://darker-x.oss-cn-hangzhou.aliyuncs.com/img/bbs/image-20201110213654312.png)
+![](https://gitee.com/xuexianqi/img/raw/master/img/image-20201110213654312.png)
 
 - 代码块支持不同编程语言的语法高亮
 - 代码块显示行号
 - 有一键复制功能
 
-![](https://darker-x.oss-cn-hangzhou.aliyuncs.com/img/bbs/image-20201110213801370.png)
+![](https://gitee.com/xuexianqi/img/raw/master/img/image-20201110213801370.png)
 
 - 点赞点踩：只能点其中1个，无法撤销，1个用户对1篇文章只能点1次
 - 评论：有根评论和子评论，实时渲染
 
-![](https://darker-x.oss-cn-hangzhou.aliyuncs.com/img/bbs/image-20201110213914297.png)
+![](https://gitee.com/xuexianqi/img/raw/master/img/image-20201110213914297.png)
 
 ## 二：安装与运行
 
@@ -204,7 +204,7 @@ python manage.py runserver
 
 #### 表关系图
 
-![](https://darker-x.oss-cn-hangzhou.aliyuncs.com/img/bbs/image-20201110220210794.png)
+![](https://gitee.com/xuexianqi/img/raw/master/img/image-20201110220210794.png)
 
 ### 2.表字段分析
 
@@ -300,7 +300,7 @@ python manage.py runserver
 - 根评论：该评论是单独的，没有其他用户回复该评论的评论（评论的对象是文章）
 - 子评论：该评论是用于回复评论的，包括回复根评论和已有子评论（评论的对象是评论，一般带有`@`）
 
-![](https://darker-x.oss-cn-hangzhou.aliyuncs.com/img/bbs/image-20201027203253468.png)
+![](https://gitee.com/xuexianqi/img/raw/master/img/image-20201110225900082.png)
 
 |  id  |  user  | article |                  content                   | comment_time         | comment_id |
 | :--: | :----: | :-----: | :----------------------------------------: | -------------------- | :--------: |
